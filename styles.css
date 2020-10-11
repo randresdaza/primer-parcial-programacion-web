@@ -1,0 +1,106 @@
+.def{
+    font-size: 110%;
+    padding: 1px;
+    margin: 1px;
+    width: 80px;
+    color: blue;
+    background-color: turquoise;
+    text-align: center;
+}
+
+.img{
+    padding: 10px;
+    display:block;
+    margin:auto;
+}
+
+.txt{
+    font-size: 110%;
+    padding: 1px;
+    margin: 1px;
+    color: blue;
+    background-color: turquoise;
+    text-align: center;
+}
+
+.title{
+    font-style: oblique;
+    font-family: cursive;
+    font-size: 300%;
+    padding: 1px;
+    margin: 1px;
+    color: rgba(29, 148, 29, 0.856);
+}
+
+.cortes{
+    font-family: cursive;
+    font-size: 150%;
+    color: green;
+    padding: 1px;
+    margin: 1px;
+}
+
+.p{
+    padding: 1px;
+    margin: 4px;
+    width: 50px;
+    margin-top: 10px;
+    color: blue;
+    font-size: 100%;
+}
+
+.space{
+    padding: 1px;
+    margin: 1px;
+    color: blue;
+    font-size: 110%;
+    background-color: turquoise;
+    text-align: center;
+}
+
+#reg2{
+    margin-left: 1%;
+    margin-right: 60%;
+    text-align: left;
+    background-color: rgba(51, 218, 168, 0.623);
+    margin-top: 10px;
+    color: black;
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabla td,th{
+    font-size: 120%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#tabla button{
+    width: 80%;
+    margin: 5px;
+    padding: 1px;
+}
+.btn{
+    padding: 1px;
+    margin: 4px;
+    width: 10%;
+    margin-top: 10px;
+    color: blue;
+    background-color: aqua;
+    font-family: cursive;
+    font-size: medium;
+}
+
+#btnT{
+    padding: 5px;
+    margin: 10px;
+    width: 20%;
+    margin-top: 10px;
+    color: black;
+    font-family: cursive;
+    font-size: medium;
+    background-color: red;
+}

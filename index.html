@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial WEB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div id="reg1">
+        <img class="img"src="unnamed.png" width="200px">
+        <h1 class="title">NOTAS UPC</h1>
+        <form id="frmNotas">
+            <br>
+            <input type="text" id="txtMateria" class="space" placeholder="Nombre de la materia">
+            <br>
+            <br>
+            <h3 class="cortes">PRIMER CORTE 30%</h3>
+
+            <input type="number" step="0.01" id="txtQuiz" placeholder="Quiz" class="txt">
+
+            <input class="p" type="number" id="pQuiz" placeholder="%" >
+
+            <input type="number" step="0.01" id="txtTaller" placeholder="Talleres" class="txt">
+
+            <input class="p" type="number" id="pTaller" placeholder="%">
+            <br>
+            <input type="number" step="0.01" id="txtPractico" placeholder="Parcial práctico" class="txt">
+
+            <input class="p" type="number" id="pPractico" placeholder="%">
+
+            <input type="number" step="0.01" id="txtTeorico" placeholder="Parcial teórico" class="txt" >
+
+            <input class="p" type="number" id="pTeorico" placeholder="%">
+
+            <button class="btn" type="button" onclick="CalcularDefinitiva1()">CALCULAR</button>
+
+            <input type="text" id="txtDefinitiva1" placeholder="Definitiva" class="def" >
+
+            <br>
+            <br>
+            <h3 class="cortes">SEGUNDO CORTE 30%</h3>
+
+            <input type="number" step="0.01" id="txtQuiz2" placeholder="Quiz" class="txt">
+
+            <input class="p" type="number" id="pQuiz2" placeholder="%" >
+
+            <input type="number" step="0.01" id="txtTaller2" placeholder="Talleres" class="txt">
+
+            <input class="p" type="number" id="pTaller2" placeholder="%">
+            <br>
+            <input type="number" step="0.01" id="txtPractico2" placeholder="Parcial práctico" class="txt">
+
+            <input class="p" type="number" id="pPractico2" placeholder="%">
+
+            <input type="number" step="0.01" id="txtTeorico2" placeholder="Parcial teórico" class="txt" >
+
+            <input class="p" type="number" id="pTeorico2" placeholder="%">
+
+            <button class="btn" type="button" onclick="CalcularDefinitiva2()">CALCULAR</button>
+
+            <input type="text" id="txtDefinitiva2" placeholder="Definitiva" class="def" >
+
+            <br>
+            <br>
+            <h3 class="cortes">TERCER CORTE 40%</h3>
+
+            <input type="number" step="0.01" id="txtQuiz3" placeholder="Quiz" class="txt">
+
+            <input class="p" type="number" id="pQuiz3" placeholder="%" >
+
+            <input type="number" step="0.01" id="txtTaller3" placeholder="Talleres" class="txt">
+
+            <input class="p" type="number" id="pTaller3" placeholder="%">
+            <br>
+            <input type="number" step="0.01" id="txtPractico3" placeholder="Parcial práctico" class="txt">
+
+            <input class="p" type="number" id="pPractico3" placeholder="%">
+
+            <input type="number" step="0.01" id="txtTeorico3" placeholder="Parcial teórico" class="txt" >
+
+            <input class="p" type="number" id="pTeorico3" placeholder="%">
+
+            <button class="btn" type="button" onclick="CalcularDefinitiva3()">CALCULAR</button>
+
+            <input type="text" id="txtDefinitiva3" placeholder="Definitiva" class="def" >
+            <br>
+            <br>
+            <button class="btn" type="button" onclick="GuardarDefinitiva()">GUARDAR</button>
+        </form>    
+    </div>
+    <br>
+
+    <div id="reg2">
+
+        <table id="tabla">
+            <tbody id="tMaterias">
+                <tr>
+                    <th>Materia</th>    
+                    <th>Definitiva Primer Corte</th>   
+                    <th>Definitiva Segundo Corte</th>   
+                    <th>Definitiva Tercer Corte</th>   
+                    <th>Definitiva</th>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
